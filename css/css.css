@@ -1,0 +1,40 @@
+.header{
+    width: 100%;
+    position: fixed;
+    background-color: #2B2728;
+    height: 70px;
+}
+.block_header{
+    width: 70vw;
+    margin: 0 auto;
+    display: flex;
+}
+.logo{
+    font-family: Berkshire Swash;
+    color: #FFF;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.header_meny{
+    font-family: Berlin Sans FB Demi;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+    color: #B7BAB9;
+    left: 5,98%;
+}
+.meny_url{
+    display: flex;
+}
+.header_element{
+    margin-left: 6vw;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.header_element:first-child{
+    margin-left: 0;
+}
