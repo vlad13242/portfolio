@@ -1,6 +1,9 @@
+/* header */
 .header{
+    top: 0;
     width: 100%;
     position: fixed;
+    z-index: 1;
     background-color: #2B2728;
     height: 70px;
 }
@@ -29,12 +32,40 @@
 }
 .meny_url{
     display: flex;
+    width: 70vw;
 }
 .header_element{
-    margin-left: 6vw;
+    width: 20%;
     margin-top: auto;
     margin-bottom: auto;
+    text-align: center;
 }
 .header_element:first-child{
     margin-left: 0;
+}
+/* main */
+.main{
+    margin-top: 70px;
+}
+.block_programer{
+    height: 1000px;
+}
+.img_programer{
+    width: 100%;
+    z-index: -1;
+}
+.block_presentetion{
+    /* border: 1px solid black; */
+    width: 60vw;
+    position: absolute;
+}
+.text_programmer{
+    color: white;
+    text-align: center;
+    font-family: You2013;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 100px;
 }
